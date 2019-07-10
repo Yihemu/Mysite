@@ -1,0 +1,37 @@
+div.blog-item:not(:last-child) {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+ul.blog_info_detail {
+    list-style-type: none;
+    margin-bottom: 1em;
+    padding: 0px;
+}
+
+ul.blog_info_detail li{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+div.blog_content {
+    text-indent: 2em;
+}
+
+div.paginator {
+    text-align: center;
+}
+
+div.blog_more {
+    margin-top: 1em;
+}
+
+div.comment-area{
+    margin-top: 2em;
+}
+
+h3.comment-area-title{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.4em;
+}

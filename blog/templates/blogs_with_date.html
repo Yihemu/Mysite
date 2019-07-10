@@ -1,0 +1,10 @@
+{% extends 'blog_list.html' %}
+
+{% block title %}
+    记忆面包 | 博客分类
+{% endblock %}
+
+{% block blog_list_title %}
+    日期归档：{{ blogs_with_date }}
+    <a href="{% url 'blog_list' %}">查看全部博客</a>
+{% endblock %}
