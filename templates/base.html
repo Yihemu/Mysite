@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/custom.css">
     <link rel="stylesheet" href="/static/github.css">
+    {% load staticfiles %}
     {% block header_extends %}{% endblock %}
     {% load bootstrap3 %}
     {% bootstrap_css %}
@@ -38,6 +39,6 @@
         </div>
     </nav>
     {% block content %}{% endblock %}
-
+    {% block script_extends %} {% endblock %}
 </body>
 </html>
